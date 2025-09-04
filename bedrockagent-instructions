@@ -247,6 +247,11 @@ Would you like this instruction set exported to a document or YAML/JSON format f
 
 
 ----
+
+
+Question: also, i would like to use same agent for aws account build with aws control tower account factory automation. when user asked to build the aws account , ask the required information to build it. Thats includes Display name which is aws account name, Account email , OU, aws sso username, IAM Identity Center user email, IAM Identity Center user name first name and last name and Organizational unit. when user doesn't enough information for the account build say that this information is not suffice to build the account info and mention its missing required information to start the account build. I will feed the aws control tower organization units and its ids to bedrock knowledge base so that agent knows the OU information. Similar will use the same agent to provsion the aws infrastrute with terrafrom modules whcih are hosted in our git lab repo. will give this information along with the gitlab reposioty. so that when user asks the agent to build the infrastrcutre it has to ask the required values for user asked infrastrcuuter to provision. will give the required information to agent to ask the required variabels for each module to provision. along with this will feed the aws scps informations like how many services are allowed to use and what services are blocked in scp as well
+
+
 Great — your use case is a powerful and centralized implementation of an **AWS Bedrock agent** that supports:
 
 1. **Account metadata lookup**
