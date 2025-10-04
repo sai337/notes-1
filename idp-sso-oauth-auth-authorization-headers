@@ -43,7 +43,7 @@ Does that help clarify how OAuth works and why it’s important?
 
 You said:
 yees, as begineer what are the roles of idp, sso, oauth and diffrences between the oauth1 and oauth2. give me understanding with real time use case and examples so that i can remember for this for life. where the jwt tokesn get created, who they are being exchanged please explain all the wflow in this process 
-ChatGPT said:
+
 
 Great! You're diving into some key concepts related to authentication, and I’ll break everything down in a simple and practical way to help you remember it for life. Let's walk through each concept with real-world examples and cover the flows.
 
